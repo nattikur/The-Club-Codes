@@ -1,6 +1,6 @@
 <head>
 
-<!--- this is the a theme for MSDONNATEMPLENOBLE by NATALIE (skelettons) --->
+<!--- this is the a theme for msdonnatemplenoble by NATALIE (skelettons) --->
 
 <title>{Title}</title>
 <link rel="shortcut icon" href="{Favicon}">
