@@ -1,0 +1,200 @@
+<head>
+
+<!---- FONTS ---->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<style>
+
+/* THE ESSENTIALS */
+body {
+    /* background color */ background-color: #000;
+    /* background image */ background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+    /* font color */ color: #000;
+    /* font family */ font-family: roboto;
+    font-size: 8pt;
+}
+
+b {
+  /* accent color */ color: #262626;
+}
+
+a {
+    /* accent color */ color: #262626;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    transition: 1s;
+}
+
+a:hover {
+    cursor: crosshair;
+    letter-spacing: 2;
+    transition: 1s;
+}
+
+h1 {
+    line-height: 1;
+    margin-top: 0;
+    font-family: Patua One;
+    font-size: 15pt;
+    font-weight: normal;
+    /* accent color */ color: #262626;
+}
+
+
+
+/* TOP */
+
+#title {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* headers color */ color: #fff;
+  font-family: Patua One;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45pt;
+  letter-spacing: 2.5;
+  text-shadow: 5px 5px #000;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  line-height: 1;
+}
+
+#subtitle {
+  position: absolute;
+  top: 100px;
+  left: 55px;
+  transform: rotate(-4deg);
+  -webkit-transform: rotate(-34eg);
+  -moz-transform: rotate(-4deg);
+  font-size: 7pt;
+  line-height: 1.5;
+  text-transform: lowercase;
+  width: 275px;
+  text-align: right;
+  /* headers color */ color: #fff;
+  /* accent color */ background: #262626;
+  padding: 5px 5px 3px 0;
+  z-index: -2;
+}
+
+#top-nav {
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  width: 65%;
+  height: 50px;
+  padding: 20px;
+}
+
+#top-nav .button {
+  position: relative;
+  margin: 10px 0px auto 0;
+  /* accent color */ background: #262626;
+  padding: 10px 40px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  text-indent: 2px;
+}
+
+#top-nav a {
+  /* headers color */ color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10pt;
+  letter-spacing: 1.5;
+  font-family: Patua One;
+  border: none;
+}
+
+
+/* ABOUT PAGE */
+
+#main {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    min-height: 50px;
+    padding: 20px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#main h1 {
+    text-align: center;
+    /* headers color */ color: #fff;
+}
+
+#main .staffbox {
+    position: relative;
+    min-height: 30px;
+    max-height: 500px;
+    margin: 10px;
+    padding: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#main .staffbox a {
+    border: none;
+}
+
+#main .staff {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+</style>
+
+</head>
+
+<body><center>
+
+<!-- TOP STARTS -->
+<a href="/"><div id="title">The Club</div></a>
+<div id="subtitle">the grestest london nightclub for aliens, est. 2016</div>
+
+<div id="top-nav">
+  <div class="button"><a href="/archive">archive</a></div>
+  <div class="button"><a href="/gallery">gallery</a></div>
+  <div class="button"><a href="/tags">tags</a></div>
+  <div class="button"><a href="/info">info</a></div>
+  <div class="button"><a href="/">home</a></div>
+</div>
+<!-- TOP ENDS -->
+
+
+
+<!-- PAGE BEGINS -->
+<div id="main">
+    <h1>Staff</h1>
+<div class="staffbox">
+
+    <a href="http://msdonnatemplenoble.tumblr.com/" title="msdonnatemplenoble"><div class="staff" style="background-image: url(http://67.media.tumblr.com/avatar_140b8d211dd9_128.png)"></div></a>
+    
+        <a href="/" title="staff two"><div class="staff" style="background-image: url(http://65.media.tumblr.com/ef9b3b8df84a9f1a5599abe89fa42d2b/tumblr_oakq2yhulM1tcch1eo1_250.jpg)"></div></a>
+    
+        <a href="/" title="staff three"><div class="staff" style="background-image: url(http://67.media.tumblr.com/851684b03d13daab47123cbbf20fb744/tumblr_oevnpvnB5d1rqkwjho7_250.png)"></div></a>
+    
+        <a href="/" title="staff four"><div class="staff" style="background-image: url(http://67.media.tumblr.com/c0f465b1445fe3d91577489439b58bf1/tumblr_inline_od0e0a1ZRx1t0yoye_500.gif)"></div></a>
+        
+        
+</div>
+</div>
+<!-- PAGE ENDS -->
+
+</center></body>

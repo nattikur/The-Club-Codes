@@ -1,0 +1,211 @@
+<head>
+
+<!---- FONTS ---->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<style>
+
+/* THE ESSENTIALS */
+body {
+    /* background color */ background-color: #000;
+    /* background image */ background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+    /* font color */ color: #000;
+    /* font family */ font-family: roboto;
+    font-size: 8pt;
+}
+
+b {
+  /* accent color */ color: #262626;
+}
+
+a {
+    /* accent color */ color: #262626;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    transition: 1s;
+}
+
+a:hover {
+    cursor: crosshair;
+    letter-spacing: 2;
+    transition: 1s;
+}
+
+h1 {
+    line-height: 1;
+    margin-top: 0;
+    font-family: Patua One;
+    font-size: 15pt;
+    font-weight: normal;
+    /* accent color */ color: #262626;
+}
+
+
+
+/* TOP */
+
+#title {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* headers color */ color: #fff;
+  font-family: Patua One;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45pt;
+  letter-spacing: 2.5;
+  text-shadow: 5px 5px #000;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  line-height: 1;
+}
+
+#subtitle {
+  position: absolute;
+  top: 100px;
+  left: 55px;
+  transform: rotate(-4deg);
+  -webkit-transform: rotate(-34eg);
+  -moz-transform: rotate(-4deg);
+  font-size: 7pt;
+  line-height: 1.5;
+  text-transform: lowercase;
+  width: 275px;
+  text-align: right;
+  /* headers color */ color: #fff;
+  /* accent color */ background: #262626;
+  padding: 5px 5px 3px 0;
+  z-index: -2;
+}
+
+#top-nav {
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  width: 65%;
+  height: 50px;
+  padding: 20px;
+}
+
+#top-nav .button {
+  position: relative;
+  margin: 10px 0px auto 0;
+  /* accent color */ background: #262626;
+  padding: 10px 40px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  text-indent: 2px;
+}
+
+#top-nav a {
+  /* headers color */ color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10pt;
+  letter-spacing: 1.5;
+  font-family: Patua One;
+  border: none;
+}
+
+
+/* ABOUT PAGE */
+
+#main {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 70%;
+    min-height: 50px;
+    padding: 20px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#main h1 {
+    text-align: center;
+    /* headers color */ color: #fff;
+}
+
+#main .gallery {
+    position: relative;
+    min-height: 30px;
+    max-height: 500px;
+    margin: 10px;
+    padding: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#main .gallery a {
+    border: none;
+}
+
+#main .gallery img {
+    display: inline-block;
+    height: 120px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+</style>
+
+</head>
+
+<body><center>
+
+<!-- TOP STARTS -->
+<a href="/"><div id="title">The Club</div></a>
+<div id="subtitle">the grestest london nightclub for aliens, est. 2016</div>
+
+<div id="top-nav">
+  <div class="button"><a href="/archive">archive</a></div>
+  <div class="button"><a href="/staff">staff</a></div>
+  <div class="button"><a href="/tags">tags</a></div>
+  <div class="button"><a href="/info">info</a></div>
+  <div class="button"><a href="/">home</a></div>
+</div>
+<!-- TOP ENDS -->
+
+
+
+<!-- PAGE BEGINS -->
+<div id="main">
+    <h1>Gallery</h1>
+<div class="gallery">
+
+    <img src="http://67.media.tumblr.com/ffd8376252af9c2e4ef80aa1f77d91d6/tumblr_oeqj75nK7K1vak3cco1_250.gif">
+    
+    <img src="http://65.media.tumblr.com/tumblr_m8xs8mn9Mr1qanr5lo1_r2_400.jpg">
+    
+    <img src="http://66.media.tumblr.com/cac3fc64cc86663f1e2b911094c37c42/tumblr_of5crptbtg1vrxb0go1_250.gif">
+    
+    <img src="http://67.media.tumblr.com/0406cd75b0c0f74ce93cb7061567e94c/tumblr_nhnwarjJud1qb8jqoo1_400.png">
+    
+    <img src="http://66.media.tumblr.com/557121cce5b1788de81147d77534abcb/tumblr_oc4l30QJkS1qjemobo2_250.gif">
+    
+    <img src="http://66.media.tumblr.com/b7a37b7d784292380b3a68e80d172650/tumblr_o8zf66BRIt1vxznpdo2_400.gif">
+    
+    <img src="http://66.media.tumblr.com/18c194cf1382387dfc00c0f1c40b8a98/tumblr_o85gegWsoE1uz3qa4o1_400.jpg">
+    
+    <img src="http://66.media.tumblr.com/78a1405eedacbf7769c8e09c5b89f552/tumblr_nlq7mxji9o1tx1m28o1_r1_400.jpg">
+    
+    <img src="http://66.media.tumblr.com/add8dedb2bad0b8705cee6f39f0b5ca6/tumblr_oeqxb5dNKc1vpf1tao2_250.gif">
+    
+    <img src="http://66.media.tumblr.com/b91e569c227589765a3e29a7ff49cb74/tumblr_oe6jjwdUR91s6wq07o1_400.gif">
+    
+    <img src="http://67.media.tumblr.com/b06e3030872b23884b85756bfd2c0ec8/tumblr_nzbwa0Uh0w1shricwo1_400.gif">
+        
+        
+</div>
+</div>
+<!-- PAGE ENDS -->
+
+</center></body>

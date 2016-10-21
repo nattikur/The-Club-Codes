@@ -1,0 +1,720 @@
+<head>
+
+<!--- this is the a theme for MSDONNATEMPLENOBLE by NATALIE (skelettons) --->
+
+<title>{Title}</title>
+<link rel="shortcut icon" href="{Favicon}">
+
+<!---- OPTIONS ---->
+    <!-- body -->
+<meta name="color:Background" content="#000">
+<meta name="image:Background" content="http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png">
+<meta name="if:Tiled Background" content="0">
+<meta name="color:Font" content="#fff">
+<meta name="select:Font Family" content="Roboto" title="Roboto">
+<meta name="select:Font Family" content="Tahoma" title="Tahoma">
+<meta name="select:Font Family" content="Calibri" title="Calibri">
+<meta name="select:Font Family" content="Open Sans" title="Open Sans">
+<meta name="select:Font Family" content="Lato" title="Lato">
+<meta name="color:Headers" content="#fff">
+<meta name="color:Accent" content="#262626">
+<meta name="color:Content" content="#fff">
+    <!-- top -->
+<meta name="text:Subtitle" content="the grestest london nightclub for aliens, est. 2016">
+<meta name="text:Nav 1" content="/info">
+<meta name="text:Nav 1 Title" content="Info">
+<meta name="text:Nav 2" content="/tags">
+<meta name="text:Nav 2 Title" content="Tags">
+<meta name="text:Nav 3" content="/staff">
+<meta name="text:Nav 3 Title" content="Staff">
+<meta name="text:Nav 4" content="/gallery">
+<meta name="text:Nav 4 Title" content="Gallery">
+    <!-- side -->
+<meta name="text:Update 1" content="Most recent update here">
+<meta name="text:Update 1 Date" content="##/##/####">
+<meta name="text:Update 2" content="Second update here">
+<meta name="text:Update 2 Date" content="##/##/####">
+<meta name="text:Tag1" content="one">
+<meta name="text:Tag2" content="two">
+<meta name="text:Tag3" content="three">
+<meta name="text:Tag4" content="four">
+<meta name="text:Link1" content="/">
+<meta name="text:Link1 Title" content="rules">
+<meta name="text:Link2" content="/">
+<meta name="text:Link2 Title" content="applying">
+<meta name="text:Link3" content="/">
+<meta name="text:Link3 Title" content="character blog">
+<meta name="text:Link4" content="/">
+<meta name="text:Link4 Title" content="after hired">
+<meta name="text:Link5" content="/">
+<meta name="text:Link5 Title" content="accepted">
+<meta name="text:Established Date" content="##/##/####">
+<meta name="text:Admin Name" content="Sarah (msdonnatemplenoble)">
+<meta name="text:Contact Method 1" content="Email">
+<meta name="text:Contact Method 1 Details" content="...@hotmail.com">
+<meta name="text:Contact Method 2" content="AIM">
+<meta name="text:Contact Method 2 Details" content="screename">
+    <!-- posts -->
+<meta name="if:Columns" content="0">
+<meta name="if:Captions On" content="1">
+<meta name="if:Show Post Info" content="1">
+
+
+<!---- FONTS ---->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<style>
+
+/* THE ESSENTIALS */
+body {
+    background-color: {color:Background};
+    background-image: url({image:Background});
+    {block:IfNotTiledBackground}
+        background-size: cover;
+        background-position: center;
+    {/block:IfNotTiledBackground}
+    color: {color:Font};
+    font-family: {select:Font Family};
+    font-size: 8pt;
+}
+
+b {
+  color: {color:Accent};
+}
+
+a {
+    color: {color:Accent};
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    transition: 1s;
+}
+
+a:hover {
+    cursor: crosshair;
+    letter-spacing: 2;
+    transition: 1s;
+}
+
+h1 {
+    line-height: 1;
+    margin-top: 0;
+    font-family: Patua One;
+    font-size: 15pt;
+    font-weight: normal;
+    color: {color:Accent};
+}
+
+
+
+/* TOP */
+
+#title {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: {color:Headers};
+  font-family: Patua One;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45pt;
+  letter-spacing: 2.5;
+  text-shadow: 5px 5px #000;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  line-height: 1;
+}
+
+#subtitle {
+  position: absolute;
+  top: 100px;
+  left: 55px;
+  transform: rotate(-4deg);
+  -webkit-transform: rotate(-34eg);
+  -moz-transform: rotate(-4deg);
+  font-size: 7pt;
+  line-height: 1.5;
+  text-transform: lowercase;
+  width: 275px;
+  text-align: right;
+  color: {color:Headers};
+  background: {color:Accent};
+  padding: 5px 5px 3px 0;
+  z-index: -2;
+}
+
+#top-nav {
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  width: 65%;
+  height: 50px;
+  padding: 20px;
+}
+
+#top-nav .button {
+  position: relative;
+  margin: 10px 0px auto 0;
+  background: {color:Accent};
+  padding: 10px 40px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  text-indent: 2px;
+}
+
+#top-nav a {
+  color: {color:Headers};
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10pt;
+  letter-spacing: 1.5;
+  font-family: Patua One;
+  border: none;
+}
+
+
+
+/* SIDEBAR */
+
+#sb {
+  position: absolute;
+  top: 23%;
+  left: 50px;
+  width: 270px;
+  min-height: 50px;
+  margin-bottom: 50px
+}
+
+#sb .head {
+  width: 230px;
+  background: #262626;
+  margin: 10px auto 0 auto;
+  padding: 5px;
+  color: {color:Headers};
+  font-family: Patua One;
+  text-transform: uppercase;
+  letter-spacing: 2.5;
+  text-align: left;
+  text-indent: 15px;
+}
+
+#sb .box {
+  width: 240px;
+  background: {color:Content};
+  margin: 0 auto 0 auto;
+  min-height: 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+#sb .info {
+  width: 210px;
+  min-height: 10px;
+  margin: 15px;
+  padding-right: 5px;
+}
+
+#sb .update {
+  line-height: 1.5;
+  width: 220px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+#sb .update b {
+  margin: 0 5px 5px 5px;
+  font-size: 6pt;
+  text-transform: uppercase;
+}
+
+#sb .update a {
+  margin-left: 10px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 6pt;
+  transition: 1s;
+  border: none;
+}
+
+#sb .update a:hover {
+  letter-spacing: 2.5;
+  transition: 1s;
+  cursor: crosshair;
+}
+
+#sb .tag {
+  line-height: 1;
+  width: 220px;
+  padding: 5px 10px;
+}
+
+#sb .tag a {
+  margin-left: 10px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 7pt;
+  transition: 1s;
+  border: none;
+}
+
+#sb .tag a:hover {
+  letter-spacing: 2.5;
+  transition: 1s;
+  cursor: crosshair;
+}
+
+
+
+
+/* POSTS */
+
+#main {
+    position: absolute;
+    top: 23%;
+    {block:IfColumns}
+        left: 150px;
+        top: 150px;
+        width: 900px;
+    {/block:IfColumns}
+    {block:IfNotColumns}
+        left: 550px;
+        width: 450px;
+    {/block:IfNotColumns}
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+#posthold {
+    width: 450px;
+    position: relative;
+    float: left;
+    margin: 15px auto 0 auto;
+}
+
+#post {
+    width: 400px;
+    padding: 10px;
+    background: {color:Content};
+    text-align: justify;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+#caption {
+    width: 400px;
+    padding: 2px 10px;
+    background: {color:Content};
+    text-align: justify;
+    position: relative;
+    margin: 3px auto 0 auto;
+}
+
+#pinfo {
+    width: 410px;
+    padding: 2px 5px;
+    color: {color:Content};
+    text-align: left;
+    position: relative;
+    margin: 0px auto 0 auto;
+    font-size: 6pt;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#pinfo a {
+    color: {color:Content};
+    border: none;
+    letter-spacing: 1;
+}
+
+#pinfo a:hover {
+    letter-spacing: 1;
+}
+
+#pinfo .buttons {
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0 0 3px 3px;
+    text-align: right;
+}
+
+#notes {
+    width: 400px;
+    padding: 2px 10px;
+    background: {color:Content};
+    text-align: justify;
+    position: relative;
+    margin: 3px auto 0 auto;
+}
+
+
+
+/* PAGINATION */
+
+#pag {
+    position: fixed;
+    top: 95%;
+    left: 95%;
+}
+
+#pag .but {
+    padding: 5px;
+    background: {color:Accent};
+    color:{color:Headers};
+}
+
+#pag a {
+    border: none;
+    color:{color:Headers};
+    letter-spacing: 1;
+}
+
+#pag a:hover {
+    letter-spacing: 1;
+}
+
+</style>
+
+<!-- JQUERY -->
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/me5sfsd/12Qlmj66n/script.js"></script>
+
+{block:IfColumns}
+    <!-- masonary script begins (columns) -->
+<script type="text/javascript">
+$(window).load(function(){
+var $wall = $('#main');
+$wall.imagesLoaded(function(){
+$wall.masonry({
+itemSelector: '#posthold',
+isAnimated : true
+});
+});
+$wall.infinitescroll({
+navSelector : "div#navigation",
+nextSelector : "div#navigation a#nextPage",
+itemSelector : '#posthold',
+loadingImg : "",
+loadingText : " ",
+donetext : " ",
+extraScrollPx : 0,
+bufferPx : 10000,
+debug : false,
+errorCallback: function() {
+$('#infscr-loading').animate({opacity: .8},2000).fadeOut('normal');
+}},
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+$newElems.imagesLoaded(function(){
+$wall.masonry( 'appended', $newElems, {isAnimated: true, animationOptions: {duration: 250, easing: 'linear', queue: false}}, function(){$newElems.fadeIn('slow');} );
+});
+}); $('#main').show(500);
+});
+</script>
+ 
+<script language="JavaScript">
+function function1(){
+window.scrollTo(0,5);
+}
+function function2(){
+window.scroll(0,2);
+}
+</script>
+    <!---- end masonry scripts -->
+{/block:IfColumns}
+
+</head>
+
+<body><center>
+
+
+<!-- PLAYLIST HERE:
+how create your own & add it here -
+(1) go to http://scmplayer.net/
+(2) select "Custom Skin" and copy and paste this into the box:
+        http://static.tumblr.com/d41lcii/0OKmqxehx/blackdiamond.css
+    then press "next".
+(3) follow the instructions to add songs into your playlist & click "next".
+(4) make sure the settings are configured as follows:
+        - auto play: no
+        - shuffle playback: yes (recommended)
+        - default volume: 50% (recommended)
+        - repeat mode: repeat playlist
+        - placement of player bar: bottom
+        - show playlist by default: no
+    then click "done".
+(5) copy the code and paste it below in between the "music player starts" and "music player ends" notes. -->
+
+<!-- music player starts -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'http://static.tumblr.com/d41lcii/0OKmqxehx/blackdiamond.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'I Am The Doctor','url':'https://www.youtube.com/watch?v=K7VmOZ4Ppj8&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz'},{'title':'Timelord Victorious + Vale Decem','url':'https://www.youtube.com/watch?v=R8NIEuD_HV4&index=2&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz'},{'title':'Doomsday Theme','url':'https://www.youtube.com/watch?v=Am7eHyJ8_1Y&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz&index=3'},{'title':'All The Strange, Strange Creatures','url':'https://www.youtube.com/watch?v=SU2f7AWVhZ0&index=4&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz'},{'title':'Amy Pond Theme (Extended Version)','url':'https://www.youtube.com/watch?v=lhHc-CF9OyY&index=5&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz'},{'title':'Rose%27s Theme','url':'https://www.youtube.com/watch?v=5Uzw3RC4_eU&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz&index=6'},{'title':'The Master Theme','url':'https://www.youtube.com/watch?v=PcagHjJRl4I&list=PLINGi-7Iae6SA8cd-Qp5XUDSrWa0Orwoz&index=8'}]}" ></script>
+<!-- music player ends -->
+
+
+
+
+
+<!-- TOP STARTS -->
+<a href="/"><div id="title">{Title}</div></a>
+<div id="subtitle">{text:Subtitle}</div>
+
+<div id="top-nav">
+  <div class="button"><a href="/archive">archive</a></div>
+  <div class="button"><a href="{text:Nav 4}">{text:Nav 4 Title}</a></div>
+  <div class="button"><a href="{text:Nav 3}">{text:Nav 3 Title}</a></div>
+  <div class="button"><a href="{text:Nav 2}">{text:Nav 2 Title}</a></div>
+  <div class="button"><a href="{text:Nav 1}">{text:Nav 1 Title}</a></div>
+  <div class="button"><a href="/">home</a></div>
+</div>
+<!-- TOP ENDS -->
+
+
+
+<!-- SIDEBAR STARTS -->
+<div id="sb">
+
+
+
+<!-- info starts -->
+<div class="head">info</div>
+<div class="box"><div class="info">
+    {Description}
+</div></div>
+<!-- info ends -->
+    
+    
+  
+<!-- updates start -->
+<div class="head">updates</div>
+<div class="box">
+    <div class="update"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> <b>{text:Update 1 Date}</b> {text:Update 1}</div>
+    <div class="update"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> <b>{text:Update 2 Date}</b> {text:Update 2}</div>
+    
+    <!-- TO ADD MORE UPDATES, JUST COPY THIS:
+    
+<div class="update"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> <b>##/##/##</b> UPDATE</div>
+
+    YOU WILL HAVE TO EDIT THE INFO IN HERE - THERE WILL NOT BE A THEME OPTION     FOR ANY ADDITIONAL UPDATES -->
+    
+<!-- PUT ADDITIONAL UPDATES HERE: -->
+
+<!-- ADDITIONAL UPDATES OVER -->
+
+</div>
+<!-- updates end -->
+    
+    
+<!-- tags start -->
+<div class="head">tags</div>
+<div class="box">
+    <div class="tag"><i class="fa fa-tag" aria-hidden="true"></i> <A href="/tagged/{text:Tag1}">{text:Tag1}</A></div>
+    <div class="tag"><i class="fa fa-tag" aria-hidden="true"></i> <A href="/tagged/{text:Tag2}">{text:Tag2}</A></div>
+    <div class="tag"><i class="fa fa-tag" aria-hidden="true"></i> <A href="/tagged/{text:Tag3}">{text:Tag3}</A></div>
+    <div class="tag"><i class="fa fa-tag" aria-hidden="true"></i> <A href="/tagged/{text:Tag4}">{text:Tag4}</A></div>
+    
+    <!-- TO ADD MORE TAGS, JUST COPY THIS:
+    
+<div class="tag"><i class="fa fa-tag" aria-hidden="true"></i> <A href="/tagged/TAG">TAG</A></div>
+
+    YOU WILL HAVE TO EDIT THE INFO IN HERE - THERE WILL NOT BE A THEME OPTION     FOR ANY ADDITIONAL TAGS -->
+    
+<!-- PUT ADDITIONAL TAGS HERE: -->
+
+<!-- ADDITIONAL TAG OVER -->
+    
+</div>
+<!-- tags end -->
+
+
+
+<!-- links start -->  
+<div class="head">links</div>
+<div class="box">
+    <div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="{text:Link1}">{text:Link1 Title}</A></div>
+    <div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="{text:Link2}">{text:Link2 Title}</A></div>
+    <div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="{text:Link3}">{text:Link3 Title}</A></div>
+    <div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="{text:Link4}">{text:Link4 Title}</A></div>
+    <div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="{text:Link5}">{text:Link5 Title}</A></div>
+    
+    <!-- TO ADD MORE LINKS, JUST COPY THIS:
+    
+<div class="tag"><i class="fa fa-external-link" aria-hidden="true"></i> <A href="LINK">LINK TITLE</A></div>
+
+    YOU WILL HAVE TO EDIT THE INFO IN HERE - THERE WILL NOT BE A THEME OPTION     FOR ANY ADDITIONAL LINKS -->
+    
+<!-- PUT ADDITIONAL LINKS HERE: -->
+
+<!-- ADDITIONAL LINKS OVER -->
+    
+</div>
+<!-- links end -->
+
+
+
+<!-- contact starts -->  
+  <div class="head">contact</div>
+  <div class="box">
+    <div class="update"><b>club owner</b> {text:Admin Name}</div>
+    {block:AskEnabled}<div class="update"><b>Inbox</b> <A href="/ask">Open</A></div>{/block:AskEnabled}
+    {block:SubmissionsEnabled}<div class="update"><b>Submissions</b> <A href="/submit">Open</A></div>{/block:SubmissionsEnabled}
+    <div class="update"><b>{text:Contact Method 1}</b> {text:Contact Method 1 Details}</div>
+    <div class="update"><b>{text:Contact Method 2}</b> {text:Contact Method 2 Details}</div>
+    
+    <!-- TO ADD MORE CONTACT METHODS, JUST COPY THIS:
+    
+<div class="update"><b>METHOD</b> DETAILS</div>
+
+    YOU WILL HAVE TO EDIT THE INFO IN HERE - THERE WILL NOT BE A THEME OPTION     FOR ANY ADDITIONAL CONTACT METHODS -->
+    
+<!-- PUT ADDITIONAL CONTACT METHODS HERE: -->
+
+<!-- ADDITIONAL LINKS OVER -->
+    
+</div>
+<!-- contact ends -->
+
+
+
+<!-- info starts -->  
+  <div class="head">about</div>
+  <div class="box">
+    <div class="update"><b>established</b> {text:Established Date}</div>
+    <div class="update"><b>hits</b> 
+        <!-- hit counter starts -->
+            <script language="JavaScript">var fhsh = document.createElement('script');var fhs_id_h = "3193145";
+fhsh.src = "//s1.freehostedscripts.net/ocount.php?site="+fhs_id_h+"&name=Total Visits&a=1";
+document.head.appendChild(fhsh);document.write("<span id='h_"+fhs_id_h+"'></span>");
+</script>
+        <!-- hit counter ends -->
+    </div>
+    <div class="update"><b>online</b> 
+        <!-- online counter starts -->
+            <script language="JavaScript">var fhs = document.createElement('script');var fhs_id = "5389394";
+var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
+fhs.src = "//s1.freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online Now&e2=Online Now&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
+document.head.appendChild(fhs);document.write("<span id='o_"+fhs_id+"'></span>");
+</script>
+        <!-- online counter ends -->
+    </div>
+    <div class="update"><p style="text-align: left; font-size: 6pt; padding: 0; margin: 0; text-transform: uppercase;"><B>theme</B> commisioned from <a href="http://skelettons.tumblr.com/" style="margin: 0; border-bottom: 1px solid;">natalie</a></p></div>
+  </div>
+<!-- info ends -->
+
+</div>
+<!-- SIDEBAR ENDS -->
+
+
+
+
+
+
+<!---- POSTS START ---->
+<div id="main">{block:Posts}<div id="posthold"><div id="post">
+    
+    <!-- text -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+
+    <!-- pictures -->
+{block:Photo}
+<img src="{PhotoURL-400}">
+{/block:Photo}
+
+    <!-- photoset -->
+{block:Photoset}
+{Photoset-400}
+{/block:Photoset}
+
+    <!-- quote -->
+{block:Quote}
+<h1>{Quote}</h1>
+{block:Source}{Source}{/block:Source}
+{/block:Quote}
+
+    <!-- link -->
+{block:Link}
+<h1><a href="{URL}">{Name}</a></h1>
+{/block:Link}
+
+    <!-- chat -->
+{block:Chat}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{block:Lines}{block:Label}<b>{Label}</b>{/block:Label} {Line}<br><br>{/block:Lines}
+{/block:Chat}
+
+    <!-- music -->
+{block:Audio}
+{block:AudioEmbed}{AudioEmbed-400}{/block:AudioEmbed}
+{/block:Audio}
+
+    <!-- video -->
+{block:Video}
+{Video-400}
+{/block:Video}
+
+    
+</div>
+
+{block:IfCaptionsOn}{block:Caption}
+<div id="caption">{Caption}</div>
+{/block:Caption}{/block:IfCaptionsOn}
+
+{block:IfShowPostInfo}
+<div id="pinfo">
+    <div class="buttons"><a href="{Permalink}"><i class="fa fa-link" aria-hidden="true"></i></a> / <i class="fa fa-heart" aria-hidden="true" title="{NoteCountWithLabel}"></i> / <a href="{ReblogURL}" title="Reblog"><i class="fa fa-retweet" aria-hidden="true"></i></a></div>
+
+{block:HasTags}{block:Tags}<a href="{TagURL}">#{Tag}</a> &nbsp; {/block:Tags}{/block:HasTags}
+
+</div>
+{/block:IfShowPostInfo}
+
+{block:PostNotes}
+<div id="notes">{PostNotes}</div>
+{/block:PostNotes}
+    
+</div>{/block:Posts}</div>
+<!---- POSTS OVER ---->
+
+{block:Pagination}
+<div id="pag">
+{block:PreviousPage}<A href="{PreviousPage}"><div class="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></div></a>{/block:PreviousPage}
+{block:NextPage}<A href="{NextPage}"><div class="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></div></a>{/block:NextPage}
+</div>
+{/block:Pagination}
+
+
+
+</center></body>
+
+
+
+<!-- with a great muchos gracios to:
+ 
+    (a) tumblr's awesome blog making guide
+        (https://www.tumblr.com/docs/en/custom_themes)
+       
+    (b) subtle patterns for the background
+       
+    (c) creatre themes guide for columns
+        (http://septembre.co.vu/post/93242735110/changing-a-one-columned-theme-into-a-grid-theme)
+       
+thanks & you were awesome! could not have done this without cha! -->
+
+
+
+
+
