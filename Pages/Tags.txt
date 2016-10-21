@@ -142,10 +142,10 @@ h1 {
 }
 
 #main .tag {
-    width: 89px;
+    width: 111px;
     /* content color */ background: #fff;
     text-align: center;
-    font-size: 6pt;
+    font-size: 8pt;
     text-transform: uppercase;
     font-weight: bold;
     display:inline-block;
@@ -195,8 +195,10 @@ h1 {
 <a href="/tagged/tag"><div class="tag">#tag</div></a>
 <a href="/tagged/tag"><div class="tag">#tag</div></a>
 <a href="/tagged/tag"><div class="tag">#tag</div></a>
+<a href="/tagged/tag"><div class="tag">#tag</div></a>
 </div>
 </div>
 <!-- PAGE ENDS -->
 
 </center></body>
+
