@@ -20,6 +20,8 @@
 <meta name="color:Accent" content="#262626">
 <meta name="color:Content" content="#fff">
     <!-- top -->
+<meta name="if:Banner" content="0">
+<meta name="image:Banner" content="http://placehold.it/65%x100">
 <meta name="text:Subtitle" content="the grestest london nightclub for aliens, est. 2016">
 <meta name="text:Nav 1" content="/info">
 <meta name="text:Nav 1 Title" content="Info">
@@ -145,9 +147,28 @@ h1 {
   z-index: -2;
 }
 
+{block:IfBanner}
+#banner {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    margin-left: 20px;
+    width: 65%;
+    height: 150px;
+    background-image: url({image:Banner});
+    background-size: cover;
+    background-position: center;
+}
+{/block:IfBanner}
+
 #top-nav {
   position: absolute;
+  {block:IfBanner}
+  top: 155px;
+  {/block:IfBanner}
+  {block:IfNotBanner}
   top: 30px;
+  {block:IfNotBanner}
   left: 30%;
   width: 65%;
   height: 50px;
@@ -276,10 +297,20 @@ h1 {
 
 #main {
     position: absolute;
-    top: 23%;
+    {block:IfBanner}
+        top: 220px;
+    {/block:IfBanner}
+    {block:IfNotBanner}
+        top: 23%px;
+        {/block:IfNotBanner}
     {block:IfColumns}
         left: 150px;
+        {block:IfBanner}
+        top: 220px;
+        {/block:IfBanner}
+        {block:IfNotBanner}
         top: 150px;
+        {/block:IfNotBanner}
         width: 900px;
     {/block:IfColumns}
     {block:IfNotColumns}
@@ -469,6 +500,8 @@ data-config="{'skin':'http://static.tumblr.com/d41lcii/0OKmqxehx/blackdiamond.cs
 <!-- TOP STARTS -->
 <a href="/"><div id="title">{Title}</div></a>
 <div id="subtitle">{text:Subtitle}</div>
+
+{block:IfBanner}<div id="banner"></div>{/block:IfBanner}
 
 <div id="top-nav">
   <div class="button"><a href="/archive">archive</a></div>
