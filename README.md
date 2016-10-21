@@ -79,7 +79,7 @@ Just go through the style information and everywhere where you see one of those 
 <ul>
   <li>THE LINK : find the bit that says "/tagged/tag" and replace the word "tag" with whatever the tag is. NOTE: if the tag has spaces in, e.g. "doctor who", then you will need to write "doctor-who".
   <li>THE NAME: where it says "#tag", replace the word #tag with the name of the tag, for instance "doctor who". Do not remove the #.
-You can have as many or as few of these as you want, however they look best in multiples of five.
+You can have as many or as few of these as you want, however they look best in multiples of four.
 </ul>
 Once you have done that, press "Update Preview" and "Save" and your page should be done!
 </ul><p>
